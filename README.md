@@ -58,6 +58,8 @@ angular.module('myApp', [require('angular-fixed-table-header')]);
 
 Wrap the table in a element that will scroll vertically. Use the `fix-head` attribute on a `<thead>` element to prevent it from scrolling with the rest of the table.
 
+You may also add a 'th-ele' attribute on the thead if you are using a custom element instead of th for your table header cells. Pass in the name of your custom th element - Example:  th-ele="my-custom-element"
+
 A clone of the original `<thead>` element will be moved outside the scroll container. To ensure valid HTML, the cloned `<thead>` element will be wrapped in a copy of the `<table>` element. The new `<table>` element will be given the `clone` class.
 
 ```html

@@ -1,10 +1,10 @@
 {
   "name": "angular-fixed-table-header",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Fixed table header directive.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/daniel-nagy/fixed-table-header.git"
+    "url": "git://github.com/joshgking/fixed-table-header.git"
   },
   "main": "index.js",
   "dependencies": {
